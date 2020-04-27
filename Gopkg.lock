@@ -2,14 +2,6 @@
 
 
 [[projects]]
-  digest = "1:a260e3a321516297992cbf3e4480032c159d1c9428b557844a7458fd30122b89"
-  name = "github.com/soniakeys/multiset"
-  packages = ["."]
-  pruneopts = "UT"
-  revision = "9594871622dcf5275dbec4c0d8c723df87c5ecb6"
-  version = "v1.0.0"
-
-[[projects]]
   digest = "1:4944bf1311d4e13847dc5b920bac39c5c7212ddc7a9a8dc18f0b5184c7faa2de"
   name = "gonum.org/v1/gonum"
   packages = [
@@ -36,9 +28,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = [
-    "github.com/soniakeys/multiset",
-    "gonum.org/v1/gonum/mat"
-  ]
+  input-imports = ["gonum.org/v1/gonum/mat"]
   solver-name = "gps-cdcl"
   solver-version = 1
